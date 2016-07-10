@@ -1,0 +1,309 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.panel-heading {
+	padding: 4px 4px;
+}
+.panel-body {
+	padding: 0;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+	padding: 2px 4px;
+	font-size: 11px;
+}
+.nav > li > a {
+  font-weight: bold;
+  padding: 4px 6px;
+}
+.form-control {
+	font-size: 11px;
+	height: 20px;
+	padding: 0 4px;
+	width: 150px;
+}
+.form-horizontal .control-label {
+	font-size: 11px;
+	padding-top: 2px;
+}
+.form-group {
+	margin-bottom: 2px;
+}
+.table {
+	margin-bottom: 0;
+}
+.panel-group {
+	margin-bottom: 6px;
+}
+.input-group-addon {
+	padding: 2px 8px;
+}
+.filterInfo .accordion-toggle {
+	position: absolute;
+	right: 12px;
+	top: 10px;
+	z-index: 11;
+}
+.filterInfo .input-group-addon {
+	background-color: #fff;
+	border-color: #d2d6de;
+	border-radius: 4px 0 0 4px;
+}
+legend {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	width: 100%;
+}
+fieldset {
+	border: 1px solid silver;
+	margin-bottom: 6px;
+	padding: 6px;
+}
+legend {
+	border: medium none;
+	font-size: 11px;
+	margin-bottom: 0;
+	padding: 2px 6px;
+	width: auto;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	min-height: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.form-horizontal .checkbox, .form-horizontal .checkbox-inline, .form-horizontal .radio, .form-horizontal .radio-inline {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 2px;
+}
+.form-horizontal .form-group {
+	margin-left: 0;
+	margin-right: 0;
+}
+.box {
+	background: #ffffff none repeat scroll 0 0;
+	box-shadow: none;
+	width: 100%;
+}
+.main-header .navbar-nav > li > a {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.main-header .sidebar-toggle {
+	padding: 10px;
+}
+.statusIcon {
+	background: #f4f4f4 none repeat scroll 0 0;
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	margin-bottom: 2px;
+	padding: 2px 0;
+	text-align: right;
+}
+.statusIcon a {
+	padding-right: 10px;
+	color: #666;
+}
+.statusIcon .btn-primary {
+	background-color: #fff;
+	border-color: #3c8dbc;
+	border-radius: 2px;
+	color: #3c8dbc;
+	padding-top: 0;
+}
+.nav-tabs-custom > .tab-content.tabBg {
+	background: #f4f4f4;
+}
+.table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+	background: #ccc none repeat scroll 0 0;
+}
+.filtersInfo.filterInfo table thead tr th {
+	background: #337ab7 !important;
+	color: #Fff;
+}
+.form-horizontal {
+	margin-right: 6px;
+}
+.filtersInfo .input-group-addon {
+	padding: 6px 8px;
+}
+.filtersInfo .form-control {
+	font-size: 11px;
+	height: 30px;
+	padding: 0 4px;/*width: 150px;*/
+}
+.tab-pane {
+	font-size: 11px;
+	padding-top: 0;
+}
+.personaliaInfo.otherInfo .control-label {
+	text-align: left;
+}
+input[type="checkbox"], input[type="radio"] {
+	margin: 2px 4px 0 0;
+	float:left; 
+}
+.mrgT3 {
+	margin-top: 3px;
+}
+textarea.cmWidth100 {
+	width: 100%;
+}
+.filterSearch .form-control {
+	font-size: 11px;
+	height: 20px;
+	padding: 0 4px;
+	width: 150px;
+}
+.filterSearch .formInfoSearch .control-label {
+	padding-right: 6px;
+}
+.filterSearch .formInfoSearch .control-label input[type="checkbox"], .filterSearch .formInfoSearch .control-label input[type="radio"], .filterSearch .formInfoSearch .control-label i {
+	margin-left: 4px;
+}
+.form-control.countyInput {
+	display: inline-block;
+	width: 47px;
+}
+.form-control.payerSelect {
+	display: inline-block;
+	width: 50px;
+}
+.btn-group-xs > .btn, .btn-xs {
+	font-size: 12px;
+	line-height: normal;
+	padding: 0 5px 1px;
+}
+.filterSearch {
+	padding:6px 0 6px;
+}
+.nav-tabs-custom {
+	margin-bottom: 0;
+}
+.main-footer {
+	padding: 4px 15px;
+}
+.main-footer {
+	background: #fff none repeat scroll 0 0;
+	border-top: 1px solid #d2d6de;
+	color: #444;
+	padding: 4px 15px;
+}
+.userImg {
+	width: 60px;
+}
+.filterSearch label{ width:110px; }
+.btnAuto{ border-radius: 0 4px 4px 0}
+.statusCheckbox label{ width:auto; padding-left:0; padding-right:10px;}
+.form-horizontal .checkbox, .form-horizontal .radio {
+  min-height: auto;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+  color: #fff;
+  position: absolute;
+  top: -40px;
+}
+.dateIcon .input-group .form-control {
+       width: 150px;
+   
+}
+.dateIcon .input-group-addon{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    left: 125px;
+    position: absolute;
+    z-index: 2;
+    top:0px;
+}
+
+/*css add by Sumit*/
+.inputIcon{
+    color: #555;
+    left: 136px;
+    position: absolute;
+    top: 2px;
+    z-index: 9;
+}
+
+.btnMrm{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    display: inline;
+}
+
+.btnMrnRef{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+    display: inline-table;
+   
+}
+
+@media (max-width:480px) {
+.filterSearch .form-control {
+  width: 100%;
+}
+.form-control {
+  font-size: 11px;
+  height: 20px;
+  padding: 0 4px;
+  width: 100%;
+}
+
+}
+@media (max-width:767px) {
+.main-header .navbar-nav > li > a {
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+.statusIcon {
+  text-align: left;
+}
+.statusIcon a {
+  padding-right: 6px;
+}
+}
+
+.dateIconGridStatus {
+    position:relative;
+   
+}
+.dateIconGridStatus .input-group .form-control {
+       width: 150px;
+   
+}
+
+.dateIconGridStatus .input-group-addon {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    left: 122px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+}
+
+
+
+/*Added developer*/
+
+.glyphicon-refresh-animate {
+    animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+/*.content-wrapper{
+	margin-top: -20px;
+}*/
